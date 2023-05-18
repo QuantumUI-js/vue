@@ -1,6 +1,6 @@
 {
   "name": "quantum-vue",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.4",
   "description": "Simple Vue 3 component library template with TypeScript and Vite",
   "author": "Quan Vu <huyquan.vu.1@gmail.com>",
   "main": "index.js",
