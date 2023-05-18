@@ -1,43 +1,27 @@
 {
   "name": "quantum-vue",
-  "version": "0.0.2-alpha.3",
-  "description": "Modal component for Quantum Vue",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "0.0.1",
+  "description": "Simple Vue 3 component library template with TypeScript and Vite",
+  "author": "Quan Vu <huyquan.vu.1@gmail.com>",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "quantum",
     "vue",
-    "modal",
-    "component"
+    "vue3",
+    "typescript",
+    "vite",
+    "component",
+    "library"
   ],
-  "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "sass": "^1.41.1",
-    "typescript": "^4.5.4"
-  },
-  "peerDependencies": {
-    "vue": "^3.2.0"
-  },
-  "dependencies": {
-    "vue": "^3.2.0"
-  },
-  "engines": {
-    "node": ">= 16"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "vite",
-        "react",
-        "react-dom"
-      ]
-    }
-  },
-  "lint-staged": {
-    "*.{vue,js,ts,jsx,tsx,md,json}": "eslint --fix"
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.7",
+    "vue": "^3.2.36"
   }
 }
