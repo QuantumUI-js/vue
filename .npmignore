@@ -1,0 +1,33 @@
+# Files and directories to ignore when publishing to npm
+
+# Development files
+src/
+tests/
+babel.config.js
+webpack.config.js
+rollup.config.js
+tsconfig.json
+.eslintignore
+.eslintrc.js
+.prettierrc
+
+# Build output
+dist/
+
+# Miscellaneous
+.editorconfig
+.gitignore
+README.md
+
+# Project configuration
+package-lock.json
+yarn.lock
+.npmrc
+
+# VCS directories
+.git/
+.hg/
+.svn/
+
+# Ignore all files and directories starting with a dot
+.*
