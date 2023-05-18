@@ -1,0 +1,43 @@
+{
+  "name": "@type/quantum-vue",
+  "version": "1.0.0",
+  "description": "Modal component for Quantum Vue",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "quantum",
+    "vue",
+    "modal",
+    "component"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.41.1",
+    "typescript": "^4.5.4"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.0"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vite",
+        "react",
+        "react-dom"
+      ]
+    }
+  },
+  "lint-staged": {
+    "*.{vue,js,ts,jsx,tsx,md,json}": "eslint --fix"
+  }
+}
