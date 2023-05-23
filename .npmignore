@@ -1,7 +1,7 @@
 # Files and directories to ignore when publishing to npm
 
 # Development files
-src/
+components/
 tests/
 babel.config.js
 webpack.config.js
