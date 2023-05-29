@@ -1,5 +1,5 @@
 {
-  "name": "quantum-vue",
+  "name": "@quantumui/vue",
   "version": "0.0.2-alpha.4",
   "description": "Simple Vue 3 component library template with TypeScript and Vite",
   "author": "Quan Vu <huyquan.vu.1@gmail.com>",
@@ -23,5 +23,13 @@
     "typescript": "^5.0.4",
     "vite": "^4.3.7",
     "vue": "^3.2.36"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantumUI-js/vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QuantumUI-js/vue/issues"
+  },
+  "homepage": "https://github.com/QuantumUI-js/vue#readme"
 }
