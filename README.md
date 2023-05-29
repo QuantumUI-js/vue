@@ -1,4 +1,4 @@
-# Quantum Vue
+# Quantum UI Kit for Vue
 
 A Vue 3 UI Framework build with TypeScript and Vite.
 
@@ -13,11 +13,7 @@ vite build
 Use this component library in other Vue 3 project.
 
 ```shell
-npm install quantum-vue
-
-# OR
-
-npm install /path/to/quantum-vue
+npm install @quantumui/vue
 ```
 
 ```vue
@@ -28,7 +24,7 @@ npm install /path/to/quantum-vue
 </template>
 
 <script lang="ts">
-import { Heading} from 'quantum-vue'; // Update the import path with the correct location and name of the component
+import { Heading} from '@quantumui/vue'; // Update the import path with the correct location and name of the component
 
 export default {
   components: {
